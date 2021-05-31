@@ -1,0 +1,73 @@
+/* CSS Document */
+
+body{	background:#353541;	color:#666;	font-family:"微软雅黑";	font-size:14px;	line-height: 23px;}
+.menu a{color: #000;}
+.menu{background: #34495E; height: 50px; border-radius: 6px;}
+.menu li{width: 95px;height:50px;list-style:none;padding-top:10px;float: left;}
+.menu li a{	font-family:"黑体";	color:#fff;	text-decoration:none; font-size: 18px; line-height: 35px;}
+.menu li a:hover{color:#fff9ef;}
+
+#menu_title{ width:250px; font-size: 17px}
+
+.main{width: 980px;margin:auto}
+#header{width: 980px;margin:auto;  border-radius: 3px;}
+.main .box{background: #2C2C2C;}
+
+
+.footer{background:#213357;color:#fff; height: 80px; text-align: center; line-height: 80px;}
+.footer a{color: #fff;}
+
+
+
+.cards{width: 100%;border-radius: 10px; margin-top:20px;}
+.cards h3{text-indent: 2em; line-height: 40px;}
+.cards .box{width: 18%;height: 210px; margin:5px 3%; float: left; position:relative}
+.cards .box img{width: 100%; height:200px;}
+.cards .box .summary{ color:#fff; width: 100%; height: 80px; text-align: center;}
+.cards .box .summary a{ color:#fff; width: 100%; height: 80px; text-align: center;}
+.cards .box:hover .summary{bottom: 1px;}
+.cards .main{background: #2C2C2C;}
+.cards  h3{display: block; width: 120px; height: 40px; border-radius: 10px; color: #fff;background: #2C2C2C;}
+
+
+
+
+.manager_home{width: 100%;border-radius: 10px; margin-top:20px;background: #2C2C2C; color: #fff;}
+.manager_home .sort{ width: 320px; margin: auto; text-align: center;  clear: both;line-height:50px;}
+.manager_home .sort li{ float: left; width: 100px; list-style: none;} 
+.manager_home .sort li a{color: #fff;} 
+.manager_home .tools{width: 90%; margin: auto; font-size: 16px; color: #fff; line-height:50px;}
+.manager_home .tools strong{float: left;}
+.manager_home .tools span{float: right;}
+.manager_home .manager_home_boxs{width: 880px; clear: both; padding-top:30px;padding-bottom:30px;}
+.manager_home h3{text-indent: 2em; line-height: 40px;}
+.manager_home .cardss{width: 720px; float: left;background: #2C2C2C; }
+.manager_home .manager_home_boxs .box{border:2px solid #F79631;width: 42%;height: 160px; border-radius: 30px; margin:5px 3%; float: left; position:relative; text-align: center; font-size: 25px; line-height: 150px; color: #F79631;}
+
+
+.manager_home_boxs .tool{width: 82%; margin: auto; height:50px;}
+.manager_home_boxs .tool strong{float: left;}
+.manager_home_boxs .tool form{width:180px;float: right;}
+
+.manager_home_boxs table{width: 90%; margin:10px auto; line-height: 30px;}
+.manager_home_boxs a{color: #fff;}
+
+.btn_group{font-size: 26px;}
+.btn_group a{color: #fff;}
+
+#pageList{height: 50px; text-align: center; margin-top: 30px;}
+#pageList a{border: 1px solid #fff; padding: 10px; color: #fff;}
+
+.search_box{padding: 0; margin: 0;}
+.search_box ul {width: 150px; padding: 0; margin: auto;}
+.search_box ul li a{color: #ccc;cursor: pointer;}
+.search_box ul li a:hover{ background: #333; color: #fff;}
+.search_box ul li{list-style: none; float: left; margin-right:3px;}
+
+.search_text{clear: both;}
+#search_form{width: 240px;}
+
+input{height: 28px; border-radius: 5px;}
+
+
+.manager_home_boxs .login_form{width: 320px; margin: auto;}
